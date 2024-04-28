@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.aeritt</groupId>
-    <artifactId>Template</artifactId>
+    <artifactId>YueWarden</artifactId>
     <version>0.0.1</version>
 
     <properties>
@@ -29,8 +29,8 @@
         <spring.core.version>6.1.6</spring.core.version>
 
         <!-- Plugin properties -->
-        <plugin.id>template</plugin.id>
-        <plugin.class>com.aeritt.yue.template.TemplatePlugin</plugin.class>
+        <plugin.id>warden</plugin.id>
+        <plugin.class>com.aeritt.yue.warden.Warden</plugin.class>
         <plugin.version>0.0.1</plugin.version>
         <plugin.provider>whereareiam</plugin.provider>
         <plugin.dependencies/>

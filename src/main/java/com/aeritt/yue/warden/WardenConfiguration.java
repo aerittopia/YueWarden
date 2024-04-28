@@ -1,4 +1,4 @@
-package com.aeritt.yue.template;
+package com.aeritt.yue.warden;
 
 import org.pf4j.PluginWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,11 +10,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 @Configuration
-public class TemplateConfiguration {
+public class WardenConfiguration {
 	private final ApplicationContext ctx;
 
 	@Autowired
-	public TemplateConfiguration(ApplicationContext ctx) {
+	public WardenConfiguration(ApplicationContext ctx) {
 		this.ctx = ctx;
 	}
 

@@ -1,2 +1,4 @@
 /.idea/
 /target/
+/warden-api/target/
+/warden-plugin/target/
